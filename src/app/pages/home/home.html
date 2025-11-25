@@ -1,0 +1,52 @@
+<header>
+  <span class="hamburger" (click)="openMenu()">☰</span>
+  <h1>Nabilah Resume</h1>
+</header>
+
+<div id="sideMenu" class="side-menu">
+  <a href="javascript:void(0)" class="closebtn" (click)="closeMenu()">&times;</a>
+  <a routerLink="">Home</a>
+  <a routerLink="hobbies">Hobbies</a>
+  <a routerLink="contact">Contact</a>
+</div>
+
+<main>
+  <div class="intro-container">
+    <img [src]="imageUrl" alt="Nurul Nabilah">
+    <div class="intro-text">
+      <h2>Hi! Nice to Meet You! 👋</h2>
+    </div>
+  </div>
+
+  <p class="welcome-msg"><strong>Welcome to my personal resume website</strong> 🌸</p>
+
+  <div class="info-card">
+    <!-- Personal Info -->
+    <h3 class="section-title">Personal Info</h3>
+    <p><strong>Name:</strong> Nurul Nabilah Binti Mohamed Mahathir</p>
+    <p><strong>Matric No.:</strong> 298612</p>
+    <p><strong>Date of Birth:</strong> 17/04/2003</p>
+
+    <!-- Academic Info -->
+    <h3 class="section-title">Academic Info</h3>
+    <p><strong>Course:</strong> Bachelor of Science with Honours (Information Technology)</p>
+    <p><strong>Majoring:</strong> Software Engineering</p>
+    <p><strong>Education:</strong> <br>Kolej Matrikulasi Pulau Pinang (2021 - 2023, Science Computer)<br>
+        SMK Jelutong (2018–2020, Science Stream)</p>
+
+    <!-- Skills -->
+    <h3 class="section-title">Skills</h3>
+    <p><strong>Programming Languages:</strong> HTML, CSS, JavaScript, Dart, PHP</p>
+    <p><strong>Tools & Frameworks:</strong> Flutter, Spring Boot, Kafka, Docker, Figma, VS Code, IntelliJ IDEA</p>
+
+    <!-- Interests -->
+    <h3 class="section-title">Interests</h3>
+    <p>UI/UX Design, Software Architecture</p>
+  </div>
+
+  <a routerLink="hobbies" class="btn">See My Hobbies</a>
+</main>
+
+<footer>
+  <p>&copy; 2025 Nurul Nabilah. All rights reserved.</p>
+</footer>

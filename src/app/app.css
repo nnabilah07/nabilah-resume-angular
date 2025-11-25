@@ -1,0 +1,32 @@
+.top-nav {
+  text-align: center;
+  font-family: 'Playfair Display', serif;
+  background-color: rgba(44, 30, 30, 0.8); /* semi-transparent dark */
+  padding: 12px 0;
+  border-radius: 0px;
+  box-shadow: 0 6px 10px #fbe8c2, 0 -6px 15px #fbe8c2; /* glow above and below */
+}
+
+.top-nav a {
+  color: #fbe8c2;
+  text-decoration: none;
+  margin: 0 20px;
+  font-size: 18px;
+  transition: color 0.3s, transform 0.3s;
+}
+
+.top-nav a:hover {
+  color: #fff;
+  transform: scale(1.1);
+}
+
+/* Divider line just below the nav */
+.nav-divider {
+  border: none;
+  height: 2px;
+  width: 60%;
+  margin: 5px auto 15px auto; 
+  background-color: #fbe8c2;
+  border-radius: 2px;
+  box-shadow: 0 0 10px #fbe8c2;
+}
